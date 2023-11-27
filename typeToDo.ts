@@ -30,7 +30,7 @@ function toggleTodo(index: number) {
 }
 
 function renderTodoList() {
-    const todoListElement = document.getElementById('todoList') as HTMLUListElement;
+    const todoListElement = document.getElementById('todoList') as HTMLUListElement; //тут чат допоміг
     todoListElement.innerHTML = '';
 
     todoList.forEach((item, index) => {
